@@ -5,7 +5,8 @@ import com.common.ListNode;
 
 public class AddTwoNumbers {
     public static void main(String[] args) {
-        System.out.println(new AddTwoNumbers().addTwoNumbers(new ListNode(897), new ListNode(453)).val);
+        System.out.println(new AddTwoNumbers().addTwoNumbers(new ListNode(2,new ListNode(4)),
+                new ListNode(4,new ListNode(6))).val);
     }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode();
